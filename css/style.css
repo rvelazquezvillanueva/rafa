@@ -1,0 +1,301 @@
+* {
+    position: relative;
+}
+
+body {
+    margin: 0;
+
+}
+
+
+h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.inici {
+    width: 100%;
+    height: 200px;
+
+}
+
+.cos {
+
+
+
+}
+
+h2 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
+
+p {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 170px;
+}
+
+.cartes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.carta1 {
+    width: 232px;
+    height: 600px;
+    z-index: 5;
+}
+
+.fotoperfil1 {
+    width: 90%;
+    height: 470px;
+
+    margin: 0 auto;
+    transform: translate(0, 260px);
+    z-index: 10;
+    border:3px solid orange;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+}
+
+.fotoperfil1:hover {
+    width: 90%;
+    height: 470px;
+    transform: translate(0, 0px);
+    -webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%); 
+filter: grayscale(0%);
+
+}
+
+
+.foto1 {
+    width: 98px;
+    height: 98px;
+    border: 3px solid darkorange;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(../img/andreyA.png);
+    background-size: 100%;
+    position: absolute;
+    margin: 50px;
+}
+
+.tapa1 {
+    width: 100%;
+    height: 300px;
+    background: darkorange;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    box-shadow: 0px 0px 20px black;
+    z-index: 15;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.tapa1:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+.carta2 {
+    width: 232px;
+    height: 600px;
+
+}
+
+.fotoperfil2 {
+    width: 90%;
+    height: 470px;
+
+    margin: 0 auto;
+    transform: translate(0, 260px);
+    position:relative;
+    z-index: 10;
+    border:3px solid orange;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.fotoperfil2:hover {
+    width: 90%;
+    height: 470px;
+    transform: translate(0, 0px);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+
+.foto2 {
+    width: 98px;
+    height: 98px;
+    border: 3px solid darkorange;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(../img/estefanyC.png);
+    background-size: 100%;
+    position: absolute;
+    margin: 50px;
+}
+
+.tapa2 {
+    width: 100%;
+    height: 300px;
+    background: darkorange;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    box-shadow: 0px 0px 20px black;
+    z-index: 15;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.tapa2:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+.carta3 {
+    width: 232px;
+    height: 600px;
+}
+
+.fotoperfil3 {
+    width: 90%;
+    height: 470px;
+    margin: 0 auto;
+    transform: translate(0, 260px);
+    position:relative;
+    z-index: 10;
+    border:3px solid orange;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.fotoperfil3:hover {
+    width: 90%;
+    height: 470px;
+    transform: translate(0, 0px);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+
+.foto3 {
+    width: 98px;
+    height: 98px;
+    border: 3px solid darkorange;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(../img/joanC.png);
+    background-size: 100%;
+    position: absolute;
+    margin: 50px;
+}
+
+.tapa3 {
+    width: 100%;
+    height: 300px;
+    background: darkorange;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    box-shadow: 0px 0px 20px black;
+    z-index: 15;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.tapa3:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+    filter: grayscale(0%);
+
+}
+
+.carta4 {
+    width: 232px;
+    height: 600px;
+
+}
+
+.fotoperfil4 {
+    width: 90%;
+    height: 470px;
+    margin: 0 auto;
+    transform: translate(0, 260px);
+    position:relative;
+    z-index: 10;
+    border:3px solid orange;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.fotoperfil4:hover {
+    width: 90%;
+    height: 470px;
+    transform: translate(0, 0px);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+
+.foto4 {
+    width: 98px;
+    height: 98px;
+    border: 3px solid darkorange;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(../img/rafaV.png);
+    background-size: 100%;
+    position: absolute;
+    margin: 50px;
+}
+
+.tapa4 {
+    width: 100%;
+    height: 300px;
+    background: darkorange;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    box-shadow: 0px 0px 20px black;
+    z-index: 15;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.tap4 {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
